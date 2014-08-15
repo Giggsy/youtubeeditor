@@ -12,7 +12,20 @@ html, body {
 }
 
 #logo {
+  display:block;
   height: 100%;
+  width: 100%;
+  background-image: url('/img/logo_static.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
+  text-indent:100%;
+  white-space:nowrap;
+}
+
+#logo:hover {
+  background-image: url('/img/logo_anim2.gif');
 }
 
 .container-fluid{
