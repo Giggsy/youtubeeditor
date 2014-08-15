@@ -1,0 +1,39 @@
+<div class="row">
+  <form accept-charset="utf-8">
+    <div class="col-sm-6 col-sm-offset-3">
+      <input type="text" class="form-control" id="url-input" placeholder="Enter YouTube url here...">
+    </div>
+  </form>
+</div>
+<div class="row hide" id="player-row">
+  <div class="col-sm-12">
+    <div class="col-sm-6 col-sm-offset-3" id="player"></div>
+    <div class="row" id="player-interactions">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3" id="playing-slider"></div>
+        <div class="col-sm-6 col-sm-offset-3" id="editing-slider"></div>
+      </div>
+      <div class="row" id="player-controls">
+        <button type="button" class="btn btn-default btn-lg" id="play">
+          <span class="glyphicon glyphicon-play"></span>
+        </button>
+        <button type="button" class="btn btn-default btn-lg" id="pause">
+          <span class="glyphicon glyphicon-pause"></span>
+        </button>
+        <button type="button" class="btn btn-default btn-lg" id="save">
+          <span class="glyphicon glyphicon-paperclip"></span>
+        </button>
+      </div>
+    </div>
+    <div class="col-sm-6 col-sm-offset-3 form-horizontal hide" id="link">
+      <input type="email" class="form-control" id="direct-link" onclick="this.focus();this.select()">
+    </div>
+  </div>
+
+  <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+</div>

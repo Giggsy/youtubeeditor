@@ -1,0 +1,6 @@
+# Logfile created on 2014-08-14 21:44:25 -0400 by logger.rb/36483
+I, [2014-08-14T21:44:25.221541 #33539]  INFO -- : 0:  rack (1.5.2) from /Users/averyanturetsky/code/play/yourtube/vendor/bundle/specifications/rack-1.5.2.gemspec
+I, [2014-08-14T21:44:26.721290 #33539]  INFO -- : 0:  rack-protection (1.5.3) from /Users/averyanturetsky/code/play/yourtube/vendor/bundle/specifications/rack-protection-1.5.3.gemspec
+I, [2014-08-14T21:44:28.467221 #33539]  INFO -- : 0:  tilt (1.4.1) from /Users/averyanturetsky/code/play/yourtube/vendor/bundle/specifications/tilt-1.4.1.gemspec
+I, [2014-08-14T21:44:31.161035 #33539]  INFO -- : 0:  sinatra (1.4.5) from /Users/averyanturetsky/code/play/yourtube/vendor/bundle/specifications/sinatra-1.4.5.gemspec
+I, [2014-08-14T21:44:31.161542 #33539]  INFO -- : 0:  bundler (1.5.1) from /Users/averyanturetsky/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source

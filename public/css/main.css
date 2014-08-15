@@ -1,0 +1,89 @@
+html, body {
+  background-color: #30a8df;
+  color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#logo-stripe{
+  background-color: white;
+  height:15%;
+}
+
+#logo {
+  height: 100%;
+}
+
+.container-fluid{
+  height:85%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+#player {
+  padding-top: 30px;
+}
+
+#playing-slider{
+  margin-top:10px;
+  height:10px;
+  color: white;
+}
+
+.noUi-connect{
+  background-color: #30a8df;
+}
+
+#playing-slider .noUi-handle{
+ border: 0px; 
+ border-radius: 3px; 
+ background: #30a8df; 
+ cursor: default; 
+ box-shadow: none;
+ width: 0;
+ height: 0;
+}
+
+#playing-slider .noUi-handle:before {
+ content: none;
+}
+
+#playing-slider .noUi-handle:after {
+ content: none;
+}
+
+#editing-slider{
+  margin-top: 20px;
+}
+#player-controls {
+  padding-top: 30px;
+}
+
+#link {
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
